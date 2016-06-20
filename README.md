@@ -41,3 +41,7 @@ SO root user/password
 ```
 root/admin
 ```
+
+## License
+
+MIT © Jorge Ramírez
