@@ -1,11 +1,10 @@
 # Author: Jorge Ramirez
 
-FROM library/centos:7.2.1511
+FROM library/centos:7
 MAINTAINER Jorge Ramirez "jorgeramirez1990@gmail.com"
 
 RUN yum -y update
-RUN yum -y install wget
-
+RUN yum -y install wget deltarpm
 # download latest release
 RUN wget http://files.postgres-xl.org/postgres-xl-9.5r1.1.tar.gz
 RUN tar xzvf postgres-xl-9.5r1.1.tar.gz
