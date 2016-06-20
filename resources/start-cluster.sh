@@ -33,7 +33,6 @@ echo "setup cluster.."
 /usr/local/pgsql/bin/psql -c "SELECT pgxc_pool_reload()" postgres
 /usr/local/pgsql/bin/psql -c "EXECUTE DIRECT ON (datanode_1) 'SELECT pgxc_pool_reload()'" postgres
 /usr/local/pgsql/bin/psql -c "EXECUTE DIRECT ON (datanode_2) 'SELECT pgxc_pool_reload()'" postgres
-/usr/local/pgsql/bin/psql -c "create database api;" postgres
 echo "setup done!"
 
 
