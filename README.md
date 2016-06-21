@@ -1,6 +1,6 @@
 # PGXL
 
-This is the Dockerfile for [pgxl](https://hub.docker.com/r/jorgeramirez/pgxl/) image  that runs a [Postgres-XL](http://www.postgres-xl.org/) cluster The Postgres-XL cluster is made of one coordinator and two datanodes. Good for testing purposes.
+This is the Dockerfile for [pgxl](https://hub.docker.com/r/jorgeramirez/pgxl/) image  that runs a [Postgres-XL](http://www.postgres-xl.org/) cluster. The cluster is made of one coordinator and two datanodes. Good for testing purposes.
 
 
 ## Build & Run
